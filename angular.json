@@ -3,5 +3,48 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ftn-components": {
+      "projectType": "library",
+      "root": "projects/ftn-components",
+      "sourceRoot": "projects/ftn-components/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ftn-components/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ftn-components/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ftn-components/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ftn-components/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineStyle": true,
+          "skipTests": true,
+          "path": "projects/ftn-components/src/lib/components"
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
   }
 }
