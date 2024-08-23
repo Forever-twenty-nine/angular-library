@@ -5,7 +5,7 @@ import { Component, input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './ftn-header.component.html',
-  styles: ``
+  styleUrl: './ftn-header.component.scss'
 })
 export class FtnHeaderComponent {
   title = input<string>("titulo");

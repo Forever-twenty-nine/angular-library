@@ -1,1 +1,30 @@
-@import '../../styles.scss';
+@import '../../_variables';
+
+
+header{
+    background-color: var(--header-bg);
+}
+
+
+//sass variables
+// $color-1: #12D3CF !default;
+// :root {
+// --color-primary: #{$color-1};
+// }
+// div{
+//     background-color: $color-1;
+// }
+
+
+// div{
+//     // --colorin: brown;
+//     color: red;
+//     padding:var(--padding);
+//     background-color: var(--colorin) ;
+//     border-width: 1px;
+//     border-style: solid;
+//     border-color: $borde-colorin; // deber´ddia ser custom properties
+// }
+
+
+
