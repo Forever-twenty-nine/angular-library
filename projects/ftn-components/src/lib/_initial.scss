@@ -3,7 +3,7 @@
 
 
 // Custom clases
-.container{
+.lib-container{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 1024px)  {
-    .container{
+    .lib-container{
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-ftn-footer',
+  selector: 'ftn-footer',
   standalone: true,
   imports: [],
   templateUrl: './ftn-footer.component.html',
-  styles: ``
+  styles: './ftn-footer.component.scss'
 })
 export class FtnFooterComponent {
 
