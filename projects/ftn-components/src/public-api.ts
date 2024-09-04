@@ -4,3 +4,4 @@
 
 export * from './lib/ftn-components.service';
 export * from './lib/components/ftn-header/ftn-header.component';
+export * from './lib/components/ftn-footer/ftn-footer.component';
