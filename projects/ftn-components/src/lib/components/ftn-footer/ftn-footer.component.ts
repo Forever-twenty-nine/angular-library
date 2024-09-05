@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './ftn-footer.component.html',
-  styles: './ftn-footer.component.scss'
+  styleUrl: './ftn-footer.component.scss'
 })
 export class FtnFooterComponent {
 

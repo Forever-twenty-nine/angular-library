@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-ftn-hero',
+  selector: 'ftn-hero',
   standalone: true,
   imports: [],
   templateUrl: './ftn-hero.component.html',
-  styles: ``
+  styleUrl: './ftn-hero.component.scss'
 })
 export class FtnHeroComponent {
 
