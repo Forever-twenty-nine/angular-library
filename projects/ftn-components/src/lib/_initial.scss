@@ -24,13 +24,32 @@
 
 // Variables
 :root{
-    --header-bg: '';
+    --header-padding:   '';
+    --header-position:  '';
+    --header-top:       '';
+    --header-bg:        '';
+
     --hero-bg: '';
+
     --brands-bg: '';
+
     --benefits-bg: '';
+
     --banner-bg: '';
+
     --contact-bg: '';
+
     --footer-bg: '';
+
+    // Utilies
+    --btn-padding:              '';
+    --btn-border-radius:        '';
+    
+    --btn-cta-bg:               '';
+    --btn-cta-color:            '';
+    --btn-cta-border:           '';
+    --btn-cta-hover-bg:         '';
+    --btn-cta-hover-color:      '';
     
 }
 

@@ -8,6 +8,7 @@ import { Component, input } from '@angular/core';
   styleUrl: './ftn-header.component.scss'
 })
 export class FtnHeaderComponent {
-  title = input<string>("titulo");
+  altImage = input<string>("Imagen del logo de la empresa");
   srcImage = input<string>("srcImage");
+  buttonCtaText = input<string>("Button CTA");
 }

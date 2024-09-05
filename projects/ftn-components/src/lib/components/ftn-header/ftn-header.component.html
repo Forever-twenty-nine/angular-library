@@ -1,38 +1,38 @@
-<!-- <div class="">
-  <p class="">{{ title() }}</p>
-  <img src="{{ srcImage() }}" alt="Placeholder Image" class="mt-4 rounded shadow-lg">
-</div> -->
-
 <header>
   <div class="lib-container">
+    
     <figure>
-      <!-- <img src="{{ srcImage() }}" alt=""> -->
-      <img src="https://placehold.co/120x50/png?text=Brand+logo" alt="">
-      <p class="">{{ title() }}</p>
+      <img src="{{ srcImage() }}" alt="{{ altImage() }}">
     </figure>
-    <div>
-      <a href="">Contacto</a>
-    </div>
+    
+    <button></button>
+    
+    <nav>
+      <ul>
+        
+        <li>
+          <a href="">
+            ¿Link a sección?
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            ¿Link a sección? 
+          </a>
+        </li>
+        
+        <li>
+          <!-- Esto debería ser un componente botón,
+          Recordemos que podemos tener seguro 3 tipos de botones:
+          CTA, Secondary, Link -->
+          <a href="" class="lib-btn-cta">
+            {{ buttonCtaText() }}
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
   </div>
 </header>
-
-<main>
-  <!-- Hero -->
-  <section></section>
-
-  <!-- Brands -->
-  <section></section>
-
-  <!-- Solution / Benefits -->
-  <section></section>
-
-  <!-- Banner -->
-  <section></section>
-
-  <!-- Contact -->
-  <section></section>
-</main>
-
-
-<!-- Footer -->
- <footer></footer>

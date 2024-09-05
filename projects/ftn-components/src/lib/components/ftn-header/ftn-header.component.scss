@@ -2,9 +2,59 @@
 
 
 header{
+    padding:    var(--header-padding); 
+    position:   var(--header-bg);
+    top:        var(--header-top);
+    width:      100%;
+
+    z-index: 200;
+
     background-color: var(--header-bg);
+
+    > div{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
 }
 
+figure{
+    img{
+        width: auto;
+        height: 2rem;
+    }
+}
+
+nav{
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+
+// llevar al scss del componente
+.lib-btn-cta{
+    display: inline-block;
+    padding: var(--btn-padding);
+
+    background-color:   var(--btn-cta-bg);
+    border:             var(--btn-cta-border); 
+    border-radius:      var(--btn-border-radius);
+    color:              var(--btn-cta-color);
+
+    transition: .2s all ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active{
+        background-color:   var(--btn-cta-hover-bg);
+        color:              var(--btn-cta-hover-color);
+    }
+    
+}
 
 
 
