@@ -1,1 +1,12 @@
-<button class="lib-container" type="button"  [name]="name" >{{ label }}</button>
+@if(design == "1")
+{
+<button class="lib-container" type="button" name="design 1">{{ label }}</button>
+}
+@if(design == "2")
+{
+<button class="lib-container" type="button" name="design 2">{{ label }}</button>
+}
+@if(design == "3")
+{
+<button class="lib-container" type="button" name="design 3">{{ label }}</button>
+}
