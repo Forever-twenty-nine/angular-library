@@ -1,14 +1,5 @@
-.primary {
-  background-color: blue;
-  color: white;
-}
+@import '../../_initial';
 
-.secondary {
-  background-color: gray;
-  color: black;
-}
-
-.danger {
-  background-color: red;
-  color: white;
+section {
+  background-color: var(--button-bg);
 }

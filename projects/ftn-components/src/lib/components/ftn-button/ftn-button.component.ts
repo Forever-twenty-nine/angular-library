@@ -8,10 +8,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./ftn-button.component.scss']
 })
 export class FtnButtonComponent {
-  @Input() buttonType: 'primary' | 'secondary' | 'danger' = 'primary';
+  @Input() name: string = "";
   @Input() label: string = '';
 
-  getClasses(): string[] {
-    return ['btn', this.buttonType];
-  }
+
 }
