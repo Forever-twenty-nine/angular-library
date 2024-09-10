@@ -1,5 +1,21 @@
 @import '../../_initial'; 
 
 section{
+    padding: var(--hero-padding);
+
     background-color: var(--hero-bg);
+
+    .lib-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > div{
+            width: 100%;        
+        }
+        h1{
+            color: var(--hero-h1-color);
+            font-size: var(--hero-h1-font-size);
+            font-weight: var(--hero-h1-font-weight);
+        }
+    }
 }

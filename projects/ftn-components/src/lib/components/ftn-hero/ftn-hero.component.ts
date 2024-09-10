@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FtnButtonComponent } from "../ftn-button/ftn-button.component";
 
 @Component({
   selector: 'ftn-hero',
   standalone: true,
-  imports: [],
+  imports: [FtnButtonComponent],
   templateUrl: './ftn-hero.component.html',
   styleUrl: './ftn-hero.component.scss'
 })
