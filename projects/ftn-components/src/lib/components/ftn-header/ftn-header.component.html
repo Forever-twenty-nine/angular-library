@@ -1,15 +1,15 @@
 <header>
   <div class="lib-container">
-    
+
     <figure>
       <img src="{{ srcImage() }}" alt="{{ altImage() }}">
     </figure>
-    
+
     <button></button>
-    
+
     <nav>
       <ul>
-        
+
         <li>
           <a href="">
             ¿Link a sección?
@@ -18,17 +18,17 @@
 
         <li>
           <a href="">
-            ¿Link a sección? 
+            ¿Link a sección?
           </a>
         </li>
-        
+
         <li>
           @if(button)
             {
-                <ftn-button 
-                    design="cta"    
+                <ftn-button
+                    design="cta"
                     url="#"
-                    label="Btn Library">
+                    [label]="buttonLabel">
                 </ftn-button>
             }
         </li>

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, output } from '@angular/core';
 import { FtnButtonComponent } from "../ftn-button/ftn-button.component";
 
 @Component({
@@ -11,5 +11,7 @@ import { FtnButtonComponent } from "../ftn-button/ftn-button.component";
 export class FtnHeroComponent {
 
   @Input() button: boolean = false;
+  @Input() buttonLabel : string = '';
+
 
 }

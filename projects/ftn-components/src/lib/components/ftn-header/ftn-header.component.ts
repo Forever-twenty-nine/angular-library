@@ -11,7 +11,9 @@ import { FtnButtonComponent } from '../ftn-button/ftn-button.component';
 export class FtnHeaderComponent {
 
   @Input() button: boolean = false;
-  
+
   altImage = input<string>("Imagen del logo de la empresa");
   srcImage = input<string>("srcImage");
+
+  @Input() buttonLabel: string = '';
 }
