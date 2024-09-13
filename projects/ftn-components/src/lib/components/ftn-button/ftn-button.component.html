@@ -2,9 +2,14 @@
 {
 <button class="lib-container" type="button" name="design 1">{{ label }}</button>
 }
-@if(design == "2")
+
+@if(design == "cta")
 {
-<button class="lib-container" type="button" name="design 2">{{ label }}</button>
+    <a  name="design cta"
+        href="{{ url }}" 
+        class="lb-btn-cta">
+        {{ label }}
+    </a>
 }
 @if(design == "3")
 {

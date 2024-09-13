@@ -23,9 +23,14 @@
         </li>
         
         <li>
-          <a href="" class="lib-btn-cta">
-            {{ buttonCtaText() }}
-          </a>
+          @if(button)
+            {
+                <ftn-button 
+                    design="cta"    
+                    url="#"
+                    label="Btn Library">
+                </ftn-button>
+            }
         </li>
 
       </ul>

@@ -1,5 +1,21 @@
 @import '../../_initial';
 
-section {
-  background-color: var(--button-bg);
+.lb-btn-cta{
+  display: inline-block;
+  padding: var(--btn-padding);
+
+  background-color:   var(--btn-cta-bg);
+  border:             var(--btn-cta-border); 
+  border-radius:      var(--btn-border-radius);
+  color:              var(--btn-cta-color);
+
+  transition: .2s all ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active{
+      background-color:   var(--btn-cta-hover-bg);
+      color:              var(--btn-cta-hover-color);
+  }
+  
 }
