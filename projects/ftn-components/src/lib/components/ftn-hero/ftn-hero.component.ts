@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { FtnButtonComponent } from "../ftn-button/ftn-button.component";
 
 @Component({
@@ -9,5 +9,7 @@ import { FtnButtonComponent } from "../ftn-button/ftn-button.component";
   styleUrl: './ftn-hero.component.scss'
 })
 export class FtnHeroComponent {
+
+  @Input() button: boolean = false;
 
 }
