@@ -1,0 +1,23 @@
+@import '../../_initial';
+
+div{
+    border: 1px solid var(--brand-color-2);
+    border-radius: 16px;
+    background-color: white;
+    width: 100%;
+    max-width: 360px;
+    min-width: 320px;
+    overflow: hidden;
+
+    h3{
+        padding: 0.5em 1em;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    p{
+        padding: 0 1em 0.5em  1em;
+    }
+    img{
+
+    }
+}
