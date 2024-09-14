@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'ftn-brands',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './ftn-brands.component.scss' 
 })
 export class FtnBrandsComponent {
+
+  imgSrc = input<string>("#");
+  imgAlt = input<string>("Image logo");
 
 }

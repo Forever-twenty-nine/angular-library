@@ -2,4 +2,19 @@
 
 section{
     background-color: var(--brands-bg);
-}
+    
+    > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    img{
+        height: 50px;
+        width: auto;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+} 
