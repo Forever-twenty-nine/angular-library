@@ -9,6 +9,10 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: 800px){
+            flex-wrap: wrap;
+        }
+        
         > div{
             width: 100%;        
         }
@@ -18,4 +22,18 @@ section{
             font-weight: var(--hero-h1-font-weight);
         }
     }
+}
+
+figure{
+    @media (max-width: 800px){
+        margin-top: 1rem;
+    }
+}
+
+.ftn-tag{
+    margin-bottom: 2px;
+}
+
+.ftn-intro{
+    margin-bottom: 1rem;
 }

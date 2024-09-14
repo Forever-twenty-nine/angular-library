@@ -2,7 +2,8 @@
   <div class="lib-container">
 
     <figure>
-      <img src="{{ srcImage() }}" alt="{{ altImage() }}">
+      <img src="{{ imgSrc() }}" 
+           alt="{{ imgAlt() }}">
     </figure>
 
     <button></button>
@@ -10,7 +11,7 @@
     <nav>
       <ul>
 
-        <li>
+        <!-- <li>
           <a href="">
             ¿Link a sección?
           </a>
@@ -20,16 +21,16 @@
           <a href="">
             ¿Link a sección?
           </a>
-        </li>
+        </li> -->
 
         <li>
           @if(button)
             {
-                <ftn-button
-                    design="cta"
-                    url="#"
-                    [label]="buttonLabel">
-                </ftn-button>
+              <ftn-button
+                btnStyle="cta"
+                [btnText]="btnText"
+                [btnUrl]="btnUrl">
+              </ftn-button>
             }
         </li>
 

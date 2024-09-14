@@ -1,26 +1,33 @@
 <section>
     <div class="lib-container">
         <div>
-            <p>
-                Label goes here
-            </p>
+            @if(tag){
+                <p class="ftn-tag">
+                    {{ tagText }}
+                </p>
+            }
             <h1>
-                Important title here
+                {{ title }}
             </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga mollitia aspernatur veniam eaque quo maxime eius illum voluptatem optio. Ullam illo inventore aliquid? Quia error modi cupiditate deleniti molestiae.
-            </p>
+            @if(paragraph){
+                <p class="ftn-intro">
+                    {{ paragraphText }}
+                </p>
+            }
             @if(button)
             {
                 <ftn-button
-                    design="cta"
-                    url="#"
-                    [label]="buttonLabel">
+                    btnStyle="cta"
+                    btnUrl="#"
+                    [btnText]="btnText">
                 </ftn-button>
             }
         </div>
         <div>
-            <img src="" alt="">
+            <figure>
+                <img src="{{ imgSrc() }}" 
+                     alt="{{ imgAlt() }}">
+            </figure>
         </div>
 
     </div>

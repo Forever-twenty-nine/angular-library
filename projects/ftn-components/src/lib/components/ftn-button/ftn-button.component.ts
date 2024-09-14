@@ -8,7 +8,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./ftn-button.component.scss']
 })
 export class FtnButtonComponent {
-  @Input() design: '1' | 'cta' | '3' | '4' = '1';
-  @Input() label: string = '';
-  @Input() url: string = '#';
+  @Input() btnStyle: '1' | 'cta' | '3' | '4' = '1';
+  @Input() btnText: string = 'Add parameter: btnText';
+  @Input() btnUrl: string = '#';
+  
+  
 }

@@ -10,10 +10,10 @@ import { FtnButtonComponent } from '../ftn-button/ftn-button.component';
 })
 export class FtnHeaderComponent {
 
+  imgSrc = input<string>("#");
+  imgAlt = input<string>("Image text default");
+
   @Input() button: boolean = false;
-
-  altImage = input<string>("Imagen del logo de la empresa");
-  srcImage = input<string>("srcImage");
-
-  @Input() buttonLabel: string = '';
+  @Input() btnText: string = '';
+  @Input() btnUrl: string = '';
 }
